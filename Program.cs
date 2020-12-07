@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Ling;
 
-namespace TodoLogic
+namespace Todo
 {
-    class Program
+    class TodoLogic
     {
         private static TodoLogic _logic = new TodoLogic();
 
@@ -59,7 +60,7 @@ namespace TodoLogic
 
         private static void AddNewTodo(string[] values)
         {
-            var newModel = ParseValues(values);
+            var newmodel = ParseValues(values);
             Logic.Add(newModel);
         }
 

@@ -1,4 +1,4 @@
-namespace TodoModel
+namespace Todo
 {
     public class TodoModel
     {
